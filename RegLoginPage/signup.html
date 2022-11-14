@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            Signup
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <form method="post">
+            <table width="700" border="0" align="center" cellpadding="0" cellspacing="5">
+                <caption><strong>Student Registration Form</strong></caption>
+              <tr>
+                <td><strong>Name :</strong></td>
+                <td><input name="name" type="text" size="35" required/></td>
+              </tr>
+              <tr>
+                <td><strong>Email :</strong></td>
+                <td><input name="Email" type="email" size="35" required/></td>
+              </tr>
+              <tr>
+                <td><strong>Password :</strong></td>
+                <td><input name="Password" type="password" size="35" required></td>
+              </tr>
+              <tr>
+                <td><strong>DOB :</strong></td>
+                <td><input type="date" type="number" size="35" required/></td>
+              </tr>
+              <tr>
+                <td><strong>Gender :</strong></td>
+                <td><input type="radio" name="gender" value="male" required>Male
+                    <input type="radio" name="gender" value="female">Female</td>
+              </tr>
+              <tr>
+                <td><strong>Study Year :</strong></td>
+                <td>
+                    <input type="radio" name="syear" value="FE" required>FE
+                    <input type="radio" name="syear" value="SE">SE
+                    <input type="radio" name="syear" value="TE">TE
+                    <input type="radio" name="syear" value="BE">BE
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Address :</strong></td>
+                <td><input name="name2" type="text" size="35" required/></td>
+              </tr>
+              
+              <tr>
+                <td><strong>Department :</strong></td>
+                <td><select id="slct1" name="slct1" >
+                <option>Select..</option>
+                <option value="Medicine and Health Sciences">Medicine and Health Sciences</option>
+                <option value="Law">Law</option>
+                <option value="Music and Performing Arts">Music and Performing Arts</option>
+                <option value="Business and Economics">Business and Economics</option>
+                <option value="Science,Engineering and Technology">Science,Engineering and Technology</option>
+                <option value="Education">Education</option>
+                <option value="Pharmacy">Pharmacy</option>
+                  
+            </select></td>
+              </tr>
+              <tr>
+                <td><strong>Mobile Number:</strong></td>
+                <td><input name="Mobile no. name3" type="text" size="35"/></td>
+              </tr>
+            </table>
+            <div class="center">
+                <input type="reset" class="button" />
+                <input type="submit" value="Submit" class="button"/>
+            </div>
+            
+        </form>
+    </body>
+</html>
